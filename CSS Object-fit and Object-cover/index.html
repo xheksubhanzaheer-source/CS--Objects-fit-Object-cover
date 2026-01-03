@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object-fit and Object-cover </title>
+    <style>
+.container{
+    height: 488px;
+    width: 466px;
+    border: 2px solid black;
+    /* background-color: rgb(158, 201, 201); */
+    background-image: url(photo-1575936123452-b67c3203c357.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-clip:border-box;
+}
+img{
+     height: 488px;
+    width: 466px;
+     object-fit:contain;
+     object-position: 10px 30px;
+    /* object-position: top right; */ */
+  \
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+<!-- <img width="980px"  src="photo-1575936123452-b67c3203c357.jpeg" alt=""> -->
+    </div>
+</body>
+</html>
